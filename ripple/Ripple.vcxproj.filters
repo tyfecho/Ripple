@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Game">
+      <UniqueIdentifier>{9046b11b-b12c-4d36-9108-c4c50f72fa22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene">
+      <UniqueIdentifier>{9897ff35-cda4-4eb6-b97c-cd47a170d0f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game">
+      <UniqueIdentifier>{76bd990e-8c32-4b2b-a18d-cf13500ee3f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game\Scene">
+      <UniqueIdentifier>{cfd646b2-193f-43e7-b355-84356e7c7c1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\NW_Lib">
+      <UniqueIdentifier>{d39d09f1-e0bd-412b-b490-ba2b6389acb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\NW_Lib">
+      <UniqueIdentifier>{1bda0742-9397-44d6-a7b3-91900bcfe533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\NW_Lib\Graphics">
+      <UniqueIdentifier>{d7cfaa1a-189a-470d-b323-8e51214da733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\NW_Lib\Sound">
+      <UniqueIdentifier>{17abbe21-f9e2-41a9-a45d-21b5cc3126ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\NW_Lib\System">
+      <UniqueIdentifier>{d614019a-9e95-4467-85b5-f6beadefab31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\NW_Lib\Utility">
+      <UniqueIdentifier>{0da31e5f-576f-4897-9bd3-d90ad08c4095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\NW_Lib\Graphics">
+      <UniqueIdentifier>{e63e2096-b07f-4a76-b959-716d13938b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\NW_Lib\System">
+      <UniqueIdentifier>{51b722b4-eeb5-447c-834c-34826b7530f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\NW_Lib\Sound">
+      <UniqueIdentifier>{961cf966-afe5-4157-99d5-67fb6b1d0495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\NW_Lib\Utility">
+      <UniqueIdentifier>{f5ec35df-0348-4495-8316-fb70b1324a7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\GameObject">
+      <UniqueIdentifier>{78aa6b33-8480-4213-a53f-e01aa0d6af27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game\GameObject">
+      <UniqueIdentifier>{afb37e26-6723-4ec6-8067-677e99cf567f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\LoadAnimation">
+      <UniqueIdentifier>{3d29269a-424a-4157-9180-25b61a400631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game\LoadAnimation">
+      <UniqueIdentifier>{4048440a-fc6d-44ce-b736-3ce04843ca2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game\Element">
+      <UniqueIdentifier>{ee6a3008-9f3d-4101-8b89-b8b11a754d80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\Title.cpp">
+      <Filter>ソース ファイル\Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_AnimController.cpp">
+      <Filter>ソース ファイル\NW_Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_Billboard.cpp">
+      <Filter>ソース ファイル\NW_Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_BillboardDrawer.cpp">
+      <Filter>ソース ファイル\NW_Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_Drawer.cpp">
+      <Filter>ソース ファイル\NW_Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_model.cpp">
+      <Filter>ソース ファイル\NW_Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_ModelControler.cpp">
+      <Filter>ソース ファイル\NW_Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_ModelManager.cpp">
+      <Filter>ソース ファイル\NW_Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_Particle.cpp">
+      <Filter>ソース ファイル\NW_Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_SkinAnimationModel.cpp">
+      <Filter>ソース ファイル\NW_Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_sprite.cpp">
+      <Filter>ソース ファイル\NW_Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_sprite3D.cpp">
+      <Filter>ソース ファイル\NW_Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_SpriteDrawer.cpp">
+      <Filter>ソース ファイル\NW_Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_texture.cpp">
+      <Filter>ソース ファイル\NW_Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_TextureManager.cpp">
+      <Filter>ソース ファイル\NW_Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\Sound\NW_Lib_dsutil.cpp">
+      <Filter>ソース ファイル\NW_Lib\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\Sound\NW_Lib_Sound.cpp">
+      <Filter>ソース ファイル\NW_Lib\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\System\NW_Lib_camera.cpp">
+      <Filter>ソース ファイル\NW_Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\System\NW_Lib_CameraControler.cpp">
+      <Filter>ソース ファイル\NW_Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\System\NW_Lib_CameraManager.cpp">
+      <Filter>ソース ファイル\NW_Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\System\NW_Lib_Common.cpp">
+      <Filter>ソース ファイル\NW_Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\System\NW_Lib_DirectX.cpp">
+      <Filter>ソース ファイル\NW_Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\System\NW_Lib_DirectXInputManager.cpp">
+      <Filter>ソース ファイル\NW_Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\System\NW_Lib_GamePad.cpp">
+      <Filter>ソース ファイル\NW_Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\System\NW_Lib_InputManager.cpp">
+      <Filter>ソース ファイル\NW_Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\System\NW_Lib_light.cpp">
+      <Filter>ソース ファイル\NW_Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\System\NW_Lib_LightControler.cpp">
+      <Filter>ソース ファイル\NW_Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\System\NW_Lib_LightManager.cpp">
+      <Filter>ソース ファイル\NW_Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\System\NW_Lib_SceneManager.cpp">
+      <Filter>ソース ファイル\NW_Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\System\NW_Lib_system.cpp">
+      <Filter>ソース ファイル\NW_Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\System\NW_Lib_Timer.cpp">
+      <Filter>ソース ファイル\NW_Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\System\NW_Lib_Touch.cpp">
+      <Filter>ソース ファイル\NW_Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\System\NW_Lib_Window.cpp">
+      <Filter>ソース ファイル\NW_Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\Utility\NW_Lib_Colision.cpp">
+      <Filter>ソース ファイル\NW_Lib\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\Utility\NW_Lib_DebugFont.cpp">
+      <Filter>ソース ファイル\NW_Lib\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\Utility\NW_Lib_Fade.cpp">
+      <Filter>ソース ファイル\NW_Lib\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\Utility\NW_Lib_Task.cpp">
+      <Filter>ソース ファイル\NW_Lib\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\Utility\NW_Lib_DebugFontManager.cpp">
+      <Filter>ソース ファイル\NW_Lib\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObject.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\GameLevel.cpp">
+      <Filter>ソース ファイル\Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\LevelSelect.cpp">
+      <Filter>ソース ファイル\Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObject\SpriteObject.cpp">
+      <Filter>ソース ファイル\Game\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\OpeningScene.cpp">
+      <Filter>ソース ファイル\Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\OptionScreen.cpp">
+      <Filter>ソース ファイル\Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\Screens.cpp">
+      <Filter>ソース ファイル\Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\MainMenu.cpp">
+      <Filter>ソース ファイル\Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\Utility\NW_Lib_CommonData.cpp">
+      <Filter>ソース ファイル\NW_Lib\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\LoadAnimation\LoadAnimation.cpp">
+      <Filter>ソース ファイル\Game\LoadAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="NW_Lib\System\NW_Lib_SDFileStream.cpp">
+      <Filter>ソース ファイル\NW_Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjectExt.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Water.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\Tutorial.cpp">
+      <Filter>ソース ファイル\Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SpatialPartition.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game\Scene\Title.h">
+      <Filter>ヘッダー ファイル\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_texture.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_TextureManager.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_AnimController.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_Billboard.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_BillboardDrawer.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_Drawer.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_IModel.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_model.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_ModelControler.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_ModelManager.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_Particle.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_SkinAnimationModel.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_sprite.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_sprite3D.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_SpriteDrawer.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Sound\NW_Lib_Sound.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Sound\NW_Lib_dsutil.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\System\NW_Lib_DirectX.h">
+      <Filter>ヘッダー ファイル\NW_Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\System\NW_Lib_DirectXInputManager.h">
+      <Filter>ヘッダー ファイル\NW_Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\System\NW_Lib_GamePad.h">
+      <Filter>ヘッダー ファイル\NW_Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\System\NW_Lib_InputManager.h">
+      <Filter>ヘッダー ファイル\NW_Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\System\NW_Lib_IScene.h">
+      <Filter>ヘッダー ファイル\NW_Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\System\NW_Lib_light.h">
+      <Filter>ヘッダー ファイル\NW_Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\System\NW_Lib_LightControler.h">
+      <Filter>ヘッダー ファイル\NW_Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\System\NW_Lib_LightManager.h">
+      <Filter>ヘッダー ファイル\NW_Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\System\NW_Lib_ResourceManager.h">
+      <Filter>ヘッダー ファイル\NW_Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\System\NW_Lib_SceneManager.h">
+      <Filter>ヘッダー ファイル\NW_Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\System\NW_Lib_system.h">
+      <Filter>ヘッダー ファイル\NW_Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\System\NW_Lib_Timer.h">
+      <Filter>ヘッダー ファイル\NW_Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\System\NW_Lib_Touch.h">
+      <Filter>ヘッダー ファイル\NW_Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\System\NW_Lib_Window.h">
+      <Filter>ヘッダー ファイル\NW_Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\System\NW_Lib_camera.h">
+      <Filter>ヘッダー ファイル\NW_Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\System\NW_Lib_CameraControler.h">
+      <Filter>ヘッダー ファイル\NW_Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\System\NW_Lib_CameraManager.h">
+      <Filter>ヘッダー ファイル\NW_Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\System\NW_Lib_Common.h">
+      <Filter>ヘッダー ファイル\NW_Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Utility\NW_Lib_utility.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Utility\NW_Lib_Colision.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Utility\NW_Lib_Constant.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Utility\NW_Lib_DebugFont.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Utility\NW_Lib_Fade.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Utility\NW_Lib_HardwareDefine.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Utility\NW_Lib_Task.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Utility\NW_Lib_DebugFontManager.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_ParticleManager.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_ParticleControler.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\GameLevel.h">
+      <Filter>ヘッダー ファイル\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject.h">
+      <Filter>ヘッダー ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\LevelSelect.h">
+      <Filter>ヘッダー ファイル\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\System\NW_Lib_FileStream.h">
+      <Filter>ヘッダー ファイル\NW_Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject\SpriteObject.h">
+      <Filter>ヘッダー ファイル\Game\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\OpeningScene.h">
+      <Filter>ヘッダー ファイル\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\OptionScreen.h">
+      <Filter>ヘッダー ファイル\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\Screens.h">
+      <Filter>ヘッダー ファイル\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\MainMenu.h">
+      <Filter>ヘッダー ファイル\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\LinkedList.h">
+      <Filter>ヘッダー ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\Utility\NW_Lib_CommonData.h">
+      <Filter>ヘッダー ファイル\NW_Lib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\LoadAnimation\LoadAnimation.h">
+      <Filter>ヘッダー ファイル\Game\LoadAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Element\BaseElement.h">
+      <Filter>ヘッダー ファイル\Game\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Water.h">
+      <Filter>ヘッダー ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="NW_Lib\System\NW_Lib_SDFileStream.h">
+      <Filter>ヘッダー ファイル\NW_Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjectExt.h">
+      <Filter>ヘッダー ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SpatialPartition.h">
+      <Filter>ヘッダー ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\Tutorial.h">
+      <Filter>ヘッダー ファイル\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="works_romfiles\sound\RippleSoundInGame.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="works_romfiles\sound\RippleSoundOther.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon1.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="works_romfiles\sound\RippleSoundInGame.txt">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="works_romfiles\sound\RippleSoundOther.txt">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Ripple.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

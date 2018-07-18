@@ -1,0 +1,13 @@
+0 strm/BGM_gamePlayingRiplle.wav 0x01000003
+1 strm/BGM_title.wav 0x01000006
+2 se/SE_cancel.wav 0x01000009
+3 se/SE_decide.wav 0x01000012
+4 se/SE_frog.wav 0x01000015
+5 se/SE_frogJump2.wav 0x01000018
+6 se/SE_Log.wav 0x01000021
+7 se/SE_lotasLeaf2.wav 0x01000024
+8 se/SE_piranha.wav 0x01000027
+9 se/SE_ripple_min.wav 0x01000030
+10 se/SE_voltex_max.wav 0x01000033
+11 se/SE_voltex_mid.wav 0x01000036
+12 se/SE_voltex_min.wav 0x01000039

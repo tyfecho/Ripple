@@ -1,0 +1,7 @@
+0 strm/BGM_gamePlayingRiplle.wav 0x01000003
+1 strm/BGM_title.wav 0x01000006
+2 se/SE_cancel.wav 0x01000009
+3 se/SE_decide.wav 0x01000012
+4 se/SE_fanfare2.wav 0x01000015
+5 se/SE_select.wav 0x01000018
+6 se/SE_whistle.wav 0x01000021

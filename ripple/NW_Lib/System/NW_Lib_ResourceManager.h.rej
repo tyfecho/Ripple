@@ -1,0 +1,10 @@
+diff a/3DSEmurator/NW_Lib/System/NW_Lib_ResourceManager.h b/3DSEmurator/NW_Lib/System/NW_Lib_ResourceManager.h	(rejected hunks)
+@@ -93,7 +93,7 @@
+ 		bool Remove(int ID)
+ 		{
+ 			SafeDelete(m_manager[ID]);
+-			return m_manager.erase(ID) != NULL;
++			return m_manager.erase(ID);
+ 		}
+ 
+ 		/*=======================================================

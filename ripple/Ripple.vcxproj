@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C28772BB-63ED-44AF-AAF4-048884BE7CDB}</ProjectGuid>
+    <RootNamespace>Ghost</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>dinput8.lib;d3d9.lib;d3dx9.lib;winmm.lib;dsound.lib;dxguid.lib;dxerr.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcp;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <IgnoreSpecificDefaultLibraries>libcp</IgnoreSpecificDefaultLibraries>
+      <AdditionalDependencies>dinput8.lib;d3d9.lib;d3dx9.lib;winmm.lib;dsound.lib;dxguid.lib;dxerr.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="GameMain.cpp" />
+    <ClCompile Include="Game\GameObject.cpp" />
+    <ClCompile Include="Game\GameObjectExt.cpp" />
+    <ClCompile Include="Game\GameObject\SpriteObject.cpp" />
+    <ClCompile Include="Game\LoadAnimation\LoadAnimation.cpp" />
+    <ClCompile Include="Game\Scene\GameLevel.cpp" />
+    <ClCompile Include="Game\Scene\LevelSelect.cpp" />
+    <ClCompile Include="Game\Scene\MainMenu.cpp" />
+    <ClCompile Include="Game\Scene\OpeningScene.cpp" />
+    <ClCompile Include="Game\Scene\OptionScreen.cpp" />
+    <ClCompile Include="Game\Scene\Screens.cpp" />
+    <ClCompile Include="Game\Scene\Tutorial.cpp" />
+    <ClCompile Include="Game\SpatialPartition.cpp" />
+    <ClCompile Include="Game\Water.cpp" />
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_AnimController.cpp" />
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_Billboard.cpp" />
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_BillboardDrawer.cpp" />
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_Drawer.cpp" />
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_model.cpp" />
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_ModelControler.cpp" />
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_ModelManager.cpp" />
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_Particle.cpp" />
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_SkinAnimationModel.cpp" />
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_sprite.cpp" />
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_sprite3D.cpp" />
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_SpriteDrawer.cpp" />
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_texture.cpp" />
+    <ClCompile Include="NW_Lib\Graphics\NW_Lib_TextureManager.cpp" />
+    <ClCompile Include="NW_Lib\Sound\NW_Lib_dsutil.cpp" />
+    <ClCompile Include="NW_Lib\Sound\NW_Lib_Sound.cpp" />
+    <ClCompile Include="NW_Lib\System\NW_Lib_camera.cpp" />
+    <ClCompile Include="NW_Lib\System\NW_Lib_CameraControler.cpp" />
+    <ClCompile Include="NW_Lib\System\NW_Lib_CameraManager.cpp" />
+    <ClCompile Include="NW_Lib\System\NW_Lib_Common.cpp" />
+    <ClCompile Include="NW_Lib\System\NW_Lib_DirectX.cpp" />
+    <ClCompile Include="NW_Lib\System\NW_Lib_DirectXInputManager.cpp" />
+    <ClCompile Include="NW_Lib\System\NW_Lib_GamePad.cpp" />
+    <ClCompile Include="NW_Lib\System\NW_Lib_InputManager.cpp" />
+    <ClCompile Include="NW_Lib\System\NW_Lib_light.cpp" />
+    <ClCompile Include="NW_Lib\System\NW_Lib_LightControler.cpp" />
+    <ClCompile Include="NW_Lib\System\NW_Lib_LightManager.cpp" />
+    <ClCompile Include="NW_Lib\System\NW_Lib_SceneManager.cpp" />
+    <ClCompile Include="NW_Lib\System\NW_Lib_SDFileStream.cpp" />
+    <ClCompile Include="NW_Lib\System\NW_Lib_system.cpp" />
+    <ClCompile Include="NW_Lib\System\NW_Lib_Timer.cpp" />
+    <ClCompile Include="NW_Lib\System\NW_Lib_Touch.cpp" />
+    <ClCompile Include="NW_Lib\System\NW_Lib_Window.cpp" />
+    <ClCompile Include="NW_Lib\Utility\NW_Lib_Colision.cpp" />
+    <ClCompile Include="NW_Lib\Utility\NW_Lib_CommonData.cpp" />
+    <ClCompile Include="NW_Lib\Utility\NW_Lib_DebugFont.cpp" />
+    <ClCompile Include="NW_Lib\Utility\NW_Lib_DebugFontManager.cpp" />
+    <ClCompile Include="NW_Lib\Utility\NW_Lib_Fade.cpp" />
+    <ClCompile Include="NW_Lib\Utility\NW_Lib_Task.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="Game\Scene\Title.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameMain.h" />
+    <ClInclude Include="Game\Element\BaseElement.h" />
+    <ClInclude Include="Game\GameObject.h" />
+    <ClInclude Include="Game\GameObjectExt.h" />
+    <ClInclude Include="Game\GameObject\SpriteObject.h" />
+    <ClInclude Include="Game\LinkedList.h" />
+    <ClInclude Include="Game\LoadAnimation\LoadAnimation.h" />
+    <ClInclude Include="Game\Scene\GameLevel.h" />
+    <ClInclude Include="Game\Scene\LevelSelect.h" />
+    <ClInclude Include="Game\Scene\MainMenu.h" />
+    <ClInclude Include="Game\Scene\OpeningScene.h" />
+    <ClInclude Include="Game\Scene\OptionScreen.h" />
+    <ClInclude Include="Game\Scene\Screens.h" />
+    <ClInclude Include="Game\Scene\Title.h" />
+    <ClInclude Include="Game\Scene\Tutorial.h" />
+    <ClInclude Include="Game\SpatialPartition.h" />
+    <ClInclude Include="Game\Water.h" />
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_AnimController.h" />
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_Billboard.h" />
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_BillboardDrawer.h" />
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_Drawer.h" />
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_IModel.h" />
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_model.h" />
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_ModelControler.h" />
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_ModelManager.h" />
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_Particle.h" />
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_ParticleControler.h" />
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_ParticleManager.h" />
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_SkinAnimationModel.h" />
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_sprite.h" />
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_sprite3D.h" />
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_SpriteDrawer.h" />
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_texture.h" />
+    <ClInclude Include="NW_Lib\Graphics\NW_Lib_TextureManager.h" />
+    <ClInclude Include="NW_Lib\Sound\NW_Lib_dsutil.h" />
+    <ClInclude Include="NW_Lib\Sound\NW_Lib_Sound.h" />
+    <ClInclude Include="NW_Lib\System\NW_Lib_camera.h" />
+    <ClInclude Include="NW_Lib\System\NW_Lib_CameraControler.h" />
+    <ClInclude Include="NW_Lib\System\NW_Lib_CameraManager.h" />
+    <ClInclude Include="NW_Lib\System\NW_Lib_Common.h" />
+    <ClInclude Include="NW_Lib\System\NW_Lib_DirectX.h" />
+    <ClInclude Include="NW_Lib\System\NW_Lib_DirectXInputManager.h" />
+    <ClInclude Include="NW_Lib\System\NW_Lib_FileStream.h" />
+    <ClInclude Include="NW_Lib\System\NW_Lib_GamePad.h" />
+    <ClInclude Include="NW_Lib\System\NW_Lib_InputManager.h" />
+    <ClInclude Include="NW_Lib\System\NW_Lib_IScene.h" />
+    <ClInclude Include="NW_Lib\System\NW_Lib_light.h" />
+    <ClInclude Include="NW_Lib\System\NW_Lib_LightControler.h" />
+    <ClInclude Include="NW_Lib\System\NW_Lib_LightManager.h" />
+    <ClInclude Include="NW_Lib\System\NW_Lib_ResourceManager.h" />
+    <ClInclude Include="NW_Lib\System\NW_Lib_SceneManager.h" />
+    <ClInclude Include="NW_Lib\System\NW_Lib_SDFileStream.h" />
+    <ClInclude Include="NW_Lib\System\NW_Lib_system.h" />
+    <ClInclude Include="NW_Lib\System\NW_Lib_Timer.h" />
+    <ClInclude Include="NW_Lib\System\NW_Lib_Touch.h" />
+    <ClInclude Include="NW_Lib\System\NW_Lib_Window.h" />
+    <ClInclude Include="NW_Lib\Utility\NW_Lib_Colision.h" />
+    <ClInclude Include="NW_Lib\Utility\NW_Lib_CommonData.h" />
+    <ClInclude Include="NW_Lib\Utility\NW_Lib_Constant.h" />
+    <ClInclude Include="NW_Lib\Utility\NW_Lib_DebugFont.h" />
+    <ClInclude Include="NW_Lib\Utility\NW_Lib_DebugFontManager.h" />
+    <ClInclude Include="NW_Lib\Utility\NW_Lib_Fade.h" />
+    <ClInclude Include="NW_Lib\Utility\NW_Lib_HardwareDefine.h" />
+    <ClInclude Include="NW_Lib\Utility\NW_Lib_Task.h" />
+    <ClInclude Include="NW_Lib\Utility\NW_Lib_utility.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="works_romfiles\sound\RippleSoundInGame.h" />
+    <ClInclude Include="works_romfiles\sound\RippleSoundOther.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon1.ico" />
+    <None Include="works_romfiles\sound\RippleSoundInGame.txt" />
+    <None Include="works_romfiles\sound\RippleSoundOther.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Ripple.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
